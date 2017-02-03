@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+ <html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0"/><title></title><link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png"/><link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png"/><link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png"/><link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png"/><link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png"/><link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png"/><link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png"/><link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png"/><link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32"/><link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192"/><link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96"/><link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16"/><link rel="manifest" href="/manifest.json"/><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/><meta name="msapplication-TileColor" content="#da532c"/><meta name="msapplication-TileImage" content="/mstile-144x144.png"/><style id="typography.js">/*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+html {
+  box-sizing: border-box;
+  font-size: 112.5%;
+  line-height: 1.5em;
+  overflow-y: scroll;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: hsl(0,0%,15%);
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+/* Make image responsive by default */
+img {
+  max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,hgroup,ul,ol,dl,dd,p,figure,pre,table,fieldset,blockquote,form,noscript,iframe,img,hr {
+margin: 0;
+margin-bottom: 1.5rem;
+padding: 0;
+}
+
+blockquote {
+margin: 1.5rem 3.75rem;
+}
+
+b,strong {
+font-weight: 600
+}
+
+hr {
+background: hsl(0,0%,80%);
+border: none;
+height: 1px;
+margin-bottom: calc(1.5rem - 1px);
+}
+
+ol,ul {
+list-style-position: outside;
+margin-left: 1.5rem;
+}
+
+ul li,ol li {
+padding-left: 0;
+}
+
+code,kbd,pre,samp {
+font-size: 0.85rem;
+line-height: 1.5rem;
+}
+
+table {
+font-size: 1rem;
+line-height: 2.25rem;
+width: 100%;
+}
+
+thead {
+text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+color: hsl(0,0%,20%);
+font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+font-weight: 600;
+}
+
+h1 {
+font-size: 1.728rem;
+line-height: 2.25rem;
+}
+
+h2 {
+font-size: 1.44rem;
+line-height: 2.25rem;
+}
+
+h3 {
+font-size: 1.2rem;
+line-height: 1.5rem;
+}
+
+h4 {
+font-size: 1.12924rem;
+line-height: 1.5rem;
+}
+
+h5 {
+font-size: 1.06266rem;
+line-height: 1.5rem;
+}
+
+h6 {
+font-size: 1rem;
+line-height: 1.5rem;
+}
+
+
+</style><link rel="stylesheet" href="/styles.css"/></head><body><div id="react-mount"><div class="site-container" data-reactroot="" data-reactid="1" data-react-checksum="-1100703607"><div class="markdown" data-reactid="2"><h1 data-reactid="3">Ekklesia Report</h1><div data-reactid="4"><hr>
+<p>The Ekklēsia Report Content Platform was primarily developed using <strong>EmberJS</strong>, <strong>NodeJS</strong>, <strong>Less</strong>, and <strong>MySQL</strong>.</p>
+<p>Initially built on Wordpress, the Ekklēsia Report site’s loading times eventually crawled to a halt due to the copious amounts of plugins required to achieve the team’s needed functionality. In addition, many of their contributors felt that managing content in Wordpress was unnecessarily tedious, and desired a platform that would make publishing content fast and user friendly.</p>
+<h2 id="ekklesia-report-administration-interface">Administration Interface</h2>
+<p>As I began designing the UI, I focused on creating an admin experience that would make publishing content feel like second nature to contributors. The goal was to make sure that the team’s most frequently used tools were always readily available during the editing process, and to do away with the tedium of searching through countless menus to make trivial configuration setting changes. Afterwards, several discussions with the Ekklesia Report team took place in order to decide what framework to use to drive the admin UI, with the main options being Angular 2, React, and Ember.</p>
+<p>After some deliberation, the choice to use Ember.js was made. The Ekklesia Report team has several members with who are responsible for basic code maintenance and adding integrations, and Ember’s “Framework in a Box” approach and emphasis on convention over configuration allowed them to start contributing right away. While I love React and continue to use it in the majority of my projects, I’ll admit that the choice to go with Ember saved me hours of time spent determining project structure and tooling.</p>
+<h2 id="ekklesia-report-user-interface">User Interface</h2>
+<p>Next, the focus shifted to presenting the content in a way that was both functional and appealing. After several design iterations, a layout that promoted user engagement and content consumption was decided upon. Using the CSS Preprocessor Less made implementing media queries for a wide variety of screen sizes quick and painless. As seen below, the site is fully responsive and looks great on any device.</p>
+<img src='assets/projects/ekklesiareport-1280.png' class='media-element center' style='padding-left:20px; padding-right:20px' />
+<img src='assets/projects/ekklesiareport-320.png' class='media-element center' style='padding-left:20px; padding-right:20px' />
+<h2 id="ekklesia-report-server-side">Server-side</h2>
+<p>One of the biggest challenges in building a content and media heavy platform is scalability and preventing interruptions during usage peaks.</p>
+<h3 id="ekklesia-report-api">API</h3>
+<p>The API is the heart of the system. It has been implemented using <strong>NodeJS</strong>, <strong>MySQL</strong> and <strong>Amazon AWS</strong>.</p>
+<h3 id="ekklesia-report-content-delivery-network">Content Delivery network</h3>
+<p>In order to be highly performant, the API doesn’t handle any static content.
+Static files are delivered by a specialized CDN.</p>
+</div></div></div></div><script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script><script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js"></script><script src="/bundle.js"></script></body></html>
